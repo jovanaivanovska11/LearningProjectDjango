@@ -1,1 +1,1 @@
-web: gunicorn Domasna5.wsgi
+web gunicorn Domasna5.wsgi:application --log-file -
